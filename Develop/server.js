@@ -12,6 +12,6 @@ app.use(express.static("public"));
 require("../Develop/routes/routes");
 
 /// initializes server
-app.listen(PORT, function(){
-    console.log("Application listening on PORT " + PORT);
+app.listen(PORT, ()=>{
+    console.log(`Application listening on PORT ${PORT}`);
 });
